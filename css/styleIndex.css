@@ -1,25 +1,24 @@
-/* Colores verde pastel */
+
 :root {
-    --verde-claro: #E0FFE0;
-    --verde-medio: #B2DFB2;
-    --verde-oscuro: #85C185;
-    --texto-oscuro: #333333;
+    --azul-oscuro: #1a365d;
+    --azul-medio: #2d3748;
+    --gris-claro: #f7fafc;
+    --texto-blanco: #ffffff;
+    --texto-oscuro: #2d3748;
 }
 
 body {
     font-family: Arial, sans-serif;
-    background-color: var(--verde-claro);
+    background-color: var(--gris-claro);
     color: var(--texto-oscuro);
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
     min-height: 100vh;
 }
 
 header {
-    background-color: var(--verde-medio);
-    color: white;
+    background-color: var(--azul-oscuro);
+    color: var(--texto-blanco);
     padding: 2rem;
     text-align: center;
 }
@@ -35,7 +34,6 @@ h1 {
 }
 
 main {
-    flex: 1;
     padding: 2rem;
     max-width: 900px;
     margin: 0 auto;
@@ -46,8 +44,6 @@ main {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: flex;
-    flex-direction: column;
     gap: 2rem;
 }
 
@@ -60,15 +56,15 @@ main {
 
 h2 {
     text-align: center;
-    color: var(--verde-oscuro);
-    border-bottom: 2px solid var(--verde-medio);
+    color: var(--azul-oscuro);
+    border-bottom: 2px solid var(--azul-medio);
     padding-bottom: 1rem;
     font-size: 2rem;
 }
 
 .listado-ejemplos {
-    background-color: var(--verde-claro);
-    border: 1px solid var(--verde-medio);
+    background-color: var(--gris-claro);
+    border: 1px solid #e2e8f0;
     border-radius: 8px;
     padding: 1.5rem;
     flex: 1; 
@@ -76,7 +72,7 @@ h2 {
 
 h3 {
     margin-top: 0;
-    color: var(--verde-oscuro);
+    color: var(--azul-oscuro);
     font-size: 1.5rem;
 }
 
@@ -90,19 +86,18 @@ li {
 }
 
 a {
-    color: var(--verde-oscuro);
+    color: var(--azul-oscuro);
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
 a:hover {
-    color: var(--verde-medio);
+    color: var(--azul-medio);
 }
 
 footer {
-    background-color: var(--verde-medio);
-    color: white;
+    background-color: var(--azul-medio);
+    color: var(--texto-blanco);
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
